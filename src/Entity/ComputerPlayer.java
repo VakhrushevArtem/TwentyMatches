@@ -2,7 +2,7 @@ package Entity;
 
 import Services.SimplePrintService;
 
-public class ComputerPlayer implements Player{
+public class ComputerPlayer implements Player {
     private String name = "Компьютер";
     private int removedMatches;
     private SimplePrintService computerPrintService = new SimplePrintService();
